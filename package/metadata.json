@@ -1,0 +1,19 @@
+{
+  "KPackageStructure": "KWin/WindowSwitcher",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "bezeza",
+        "Email": "117570098+bezeza@users.noreply.github.com"
+      }
+    ],
+    "Description": "A thumbnail-first Alt+Tab switcher with a centered focus card and adaptive window grid.",
+    "Icon": "preferences-system-windows-switcher",
+    "Id": "alveus-focus-deck",
+    "License": "GPL-3.0-only",
+    "Name": "Alveus Focus Deck",
+    "Version": "0.1.0",
+    "Website": "https://github.com/bezeza/Alveus-focus-deck"
+  },
+  "X-Plasma-API": "declarativeappletscript"
+}
