@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Alveus Focus Deck concept preview</title>
+  <desc id="desc">A dark KDE-inspired desktop with five window cards and the Telegram card selected in the center.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0.9" y2="1"><stop offset="0" stop-color="#111d32"/><stop offset=".48" stop-color="#31445d"/><stop offset="1" stop-color="#081522"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14232e" stop-opacity=".97"/><stop offset="1" stop-color="#08151e" stop-opacity=".97"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b2c38"/><stop offset="1" stop-color="#101c26"/></linearGradient>
+    <linearGradient id="preview" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#31485a"/><stop offset="1" stop-color="#182a38"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#wall)"/>
+  <circle cx="1180" cy="190" r="180" fill="#e8a98b" opacity=".17"/>
+  <path d="M0 380 170 240 290 345 460 165 625 350 790 205 960 360 1140 150 1300 330 1450 220 1600 365V900H0Z" fill="#8ca1b2" opacity=".34"/>
+  <path d="M0 450 220 340 365 440 540 300 720 470 920 310 1110 465 1320 300 1480 430 1600 350V900H0Z" fill="#172b3c" opacity=".88"/>
+  <path d="M0 590Q360 540 720 610T1600 585V900H0Z" fill="#0b1a27" opacity=".78"/>
+  <path d="M0 650Q400 610 800 660T1600 645" fill="none" stroke="#6d91a4" stroke-opacity=".17" stroke-width="3"/>
+  <rect width="1600" height="48" fill="#0b111b" opacity=".88"/>
+  <text x="28" y="31" fill="#eef4f6" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700">K</text>
+  <text x="62" y="31" fill="#eef4f6" font-family="Inter,Arial,sans-serif" font-size="16">Plasma</text>
+  <g fill="#c4d0d8" font-family="Inter,Arial,sans-serif" font-size="14"><text x="155" y="30">Files</text><text x="218" y="30">Edit</text><text x="272" y="30">View</text><text x="335" y="30">Tools</text><text x="398" y="30">Help</text><text x="1450" y="30">◉  ◌  ◍  20:47</text></g>
+  <rect x="54" y="170" width="1492" height="570" rx="28" fill="#000" opacity=".38" filter="url(#shadow)"/>
+  <rect x="48" y="160" width="1504" height="590" rx="26" fill="url(#panel)" stroke="#506574" stroke-width="2"/>
+  <path d="M49 188Q49 161 76 161H1525Q1551 161 1551 188" fill="none" stroke="#a4c0cc" stroke-opacity=".14" stroke-width="2"/>
+  <path d="M98 211 122 190 146 211 122 232Z" fill="#20cdbd"/><path d="M111 211 122 200 133 211 122 222Z" fill="#07151e"/>
+  <text x="164" y="221" fill="#f2f6f7" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="700" letter-spacing="1">ALVEUS</text>
+  <text x="286" y="221" fill="#20cdbd" font-family="Inter,Arial,sans-serif" font-size="25">/</text>
+  <text x="316" y="221" fill="#d8e2e6" font-family="Inter,Arial,sans-serif" font-size="24">FOCUS DECK</text>
+  <rect x="1265" y="188" width="245" height="48" rx="24" fill="#263a47" stroke="#405966"/>
+  <g fill="#20cdbd"><rect x="1286" y="202" width="9" height="9" rx="2"/><rect x="1300" y="202" width="9" height="9" rx="2"/><rect x="1286" y="216" width="9" height="9" rx="2"/><rect x="1300" y="216" width="9" height="9" rx="2"/></g>
+  <text x="1324" y="219" fill="#edf4f6" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="600">ALL DESKTOPS</text>
+  <path d="m1477 207 8 8 8-8" fill="none" stroke="#a8bbc4" stroke-width="2"/>
+  <g font-family="Inter,Arial,sans-serif">
+    <g transform="translate(82 282)">
+      <rect width="260" height="330" rx="20" fill="url(#card)" stroke="#334b59" stroke-width="2"/><rect x="20" y="20" width="38" height="38" rx="10" fill="#dc554d"/><path d="M30 30h18v18H30z" fill="none" stroke="#fff" stroke-width="2"/><path d="m33 43 5-6 5 6" fill="none" stroke="#fff" stroke-width="2"/>
+      <text x="70" y="45" fill="#f0f4f5" font-size="16" font-weight="600">Quarterly report.pdf</text><rect x="18" y="82" width="224" height="190" rx="10" fill="url(#preview)"/><rect x="32" y="96" width="46" height="160" rx="3" fill="#d7e1e7"/><rect x="88" y="96" width="140" height="160" rx="3" fill="#e8eef1"/>
+      <text x="101" y="119" fill="#283b48" font-size="11" font-weight="700">Quarterly Report</text><path d="M105 224V185h18v39M134 224v-61h18v61M163 224v-83h18v83M192 224v-48h18v48" fill="#3e91ad"/><path d="M100 235h116M100 244h100" stroke="#91a8b5" stroke-width="3"/><text x="24" y="303" fill="#b5c5cc" font-size="13">▣  Desktop 1</text>
+    </g>
+    <g transform="translate(365 282)">
+      <rect width="260" height="330" rx="20" fill="url(#card)" stroke="#334b59" stroke-width="2"/><rect x="20" y="20" width="38" height="38" rx="10" fill="#2e8fc9"/><path d="M31 29h15v20H31zM35 35h8M35 40h8" fill="none" stroke="#fff" stroke-width="2"/>
+      <text x="70" y="45" fill="#f0f4f5" font-size="17" font-weight="600">Meeting notes</text><rect x="18" y="82" width="224" height="190" rx="10" fill="url(#preview)"/><rect x="34" y="96" width="192" height="160" rx="3" fill="#e7edf0"/><rect x="34" y="96" width="192" height="20" fill="#cbd9e0"/>
+      <text x="50" y="140" fill="#304653" font-size="13" font-weight="700">Meeting notes</text><path d="M52 158h150M52 178h130M52 198h145M52 218h112" stroke="#9eafb8" stroke-width="4" stroke-linecap="round"/><text x="24" y="303" fill="#b5c5cc" font-size="13">▣  Desktop 2</text>
+    </g>
+    <g transform="translate(648 266)">
+      <rect x="-8" y="-8" width="300" height="362" rx="24" fill="#20cdbd" opacity=".18" filter="url(#glow)"/><rect width="284" height="346" rx="22" fill="#102630" stroke="#20cdbd" stroke-width="3"/>
+      <rect x="20" y="20" width="42" height="42" rx="11" fill="#159bd3"/><path d="m31 39 20-10-7 22-5-7-5-2 12-8-15 5Z" fill="#fff"/><text x="76" y="47" fill="#f5f9fa" font-size="18" font-weight="700">Telegram</text>
+      <rect x="18" y="82" width="248" height="204" rx="10" fill="#1b3444"/><rect x="28" y="94" width="70" height="180" rx="5" fill="#213f51"/>
+      <g fill="#7390a0"><circle cx="45" cy="117" r="9"/><circle cx="45" cy="151" r="9"/><circle cx="45" cy="185" r="9"/><circle cx="45" cy="219" r="9"/><circle cx="45" cy="253" r="9"/></g>
+      <g fill="#8da5b2"><rect x="59" y="111" width="29" height="7" rx="3"/><rect x="59" y="145" width="29" height="7" rx="3"/><rect x="59" y="179" width="29" height="7" rx="3"/></g>
+      <rect x="111" y="110" width="133" height="32" rx="8" fill="#344f60"/><rect x="146" y="156" width="96" height="38" rx="9" fill="#147f83"/><rect x="112" y="207" width="130" height="39" rx="9" fill="#285c80"/><rect x="110" y="255" width="140" height="19" rx="8" fill="#344f60"/>
+      <text x="24" y="320" fill="#20cdbd" font-size="14" font-weight="700">▣  Desktop 2</text>
+    </g>
+    <g transform="translate(954 282)">
+      <rect width="260" height="330" rx="20" fill="url(#card)" stroke="#334b59" stroke-width="2"/><rect x="20" y="20" width="38" height="38" rx="10" fill="#7546c8"/><path d="M31 30q-3 4 2 12t13 7l4-5-7-4-3 3q-4-2-5-6l3-3-4-7Z" fill="#fff"/>
+      <text x="70" y="45" fill="#f0f4f5" font-size="17" font-weight="600">Viber</text><rect x="18" y="82" width="224" height="190" rx="10" fill="url(#preview)"/><rect x="32" y="96" width="56" height="160" rx="4" fill="#263e4f"/>
+      <g fill="#7e96a5"><circle cx="50" cy="119" r="9"/><circle cx="50" cy="153" r="9"/><circle cx="50" cy="187" r="9"/><circle cx="50" cy="221" r="9"/></g>
+      <rect x="100" y="108" width="120" height="27" rx="8" fill="#3b5364"/><rect x="124" y="153" width="98" height="28" rx="8" fill="#5c4792"/><rect x="100" y="198" width="120" height="27" rx="8" fill="#3b5364"/><text x="24" y="303" fill="#b5c5cc" font-size="13">▣  Desktop 3</text>
+    </g>
+    <g transform="translate(1237 282)">
+      <rect width="260" height="330" rx="20" fill="url(#card)" stroke="#334b59" stroke-width="2"/><rect x="20" y="20" width="38" height="38" rx="10" fill="#0b9f91"/><path d="M36 29v20q-10-4-10 4 0 6 7 4 5-2 5-7V35l12-3v15q-10-4-10 4 0 6 7 4 5-2 5-7V25Z" fill="#fff"/>
+      <text x="70" y="45" fill="#f0f4f5" font-size="17" font-weight="600">Music player</text><rect x="18" y="82" width="224" height="190" rx="10" fill="url(#preview)"/><rect x="80" y="103" width="100" height="100" rx="12" fill="#415a6a"/>
+      <path d="M80 173 119 126 143 153 161 137 180 173Z" fill="#9fb8c4"/><circle cx="150" cy="122" r="12" fill="#e6ad8b"/><path d="M38 224h184" stroke="#6b899a" stroke-width="4" stroke-linecap="round"/><circle cx="115" cy="224" r="7" fill="#20cdbd"/>
+      <g fill="#c8d6dc"><path d="M82 244v-12l-10 6Z"/><circle cx="130" cy="241" r="13" fill="#20cdbd"/><path d="M126 233v16l12-8Z"/><path d="M178 244v-12l10 6Z"/></g><text x="24" y="303" fill="#b5c5cc" font-size="13">▣  Desktop 1</text>
+    </g>
+  </g>
+  <path d="M82 653H1518" stroke="#49606d" stroke-opacity=".55"/>
+  <g font-family="Inter,Arial,sans-serif" font-size="15" fill="#dbe5e9">
+    <rect x="470" y="679" width="58" height="34" rx="8" fill="#304653" stroke="#526c7a"/><text x="486" y="701" font-weight="700">Tab</text><text x="540" y="701">Next</text>
+    <rect x="664" y="679" width="78" height="34" rx="8" fill="#304653" stroke="#526c7a"/><text x="677" y="701" font-weight="700">Shift</text><text x="750" y="701">+</text><rect x="770" y="679" width="58" height="34" rx="8" fill="#304653" stroke="#526c7a"/><text x="786" y="701" font-weight="700">Tab</text><text x="842" y="701">Previous</text>
+    <rect x="1040" y="679" width="56" height="34" rx="8" fill="#304653" stroke="#526c7a"/><text x="1053" y="701" font-weight="700">Esc</text><text x="1108" y="701">Cancel</text>
+  </g>
+  <rect x="500" y="814" width="600" height="70" rx="24" fill="#0a1722" fill-opacity=".86" stroke="#526b78" stroke-opacity=".6"/>
+  <g transform="translate(536 832)">
+    <rect width="38" height="34" rx="7" fill="#2588bb"/><path d="M4 7h30v22H4z" fill="#a9d8e9"/><rect x="70" width="38" height="34" rx="7" fill="#293b49"/><path d="M81 11h8m-8 6h18m-18 6h14" stroke="#e2edf1" stroke-width="2"/>
+    <circle cx="164" cy="17" r="17" fill="#df784c"/><path d="M153 26q-8-15 6-22 10-4 16 7-11-5-15 9Z" fill="#f2c56c"/><rect x="210" width="38" height="34" rx="7" fill="#1e8fc1"/><path d="M220 8h18v19h-18zM224 14h10M224 19h10" stroke="#fff" fill="none"/>
+    <rect x="280" width="38" height="34" rx="7" fill="#6b4bc1"/><text x="292" y="24" fill="#fff" font-size="22" font-weight="700">M</text><rect x="350" width="38" height="34" rx="7" fill="#159bd3"/><path d="m358 17 22-10-8 23-6-8-8-2 14-8Z" fill="#fff"/>
+    <rect x="420" width="38" height="34" rx="7" fill="#7045be"/><path d="M432 9q-5 6 3 14t14 1l-5-5-4 2-4-5 2-4Z" fill="#fff"/><rect x="490" width="38" height="34" rx="7" fill="#147f78"/><path d="M505 8v16q-8-3-8 3 0 5 6 3 4-2 4-6V13l12-3v13q-8-3-8 3 0 5 6 3 4-2 4-6V5Z" fill="#fff"/>
+  </g>
+</svg>

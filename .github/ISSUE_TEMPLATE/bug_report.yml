@@ -1,0 +1,56 @@
+name: Bug report
+description: Report a reproducible problem with the KWin switcher theme.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Please do not include private window titles, document contents, or other sensitive desktop data."
+  - type: input
+    id: plasma
+    attributes:
+      label: KDE Plasma version
+      placeholder: "6.x"
+    validations:
+      required: true
+  - type: input
+    id: kwin
+    attributes:
+      label: KWin version
+    validations:
+      required: true
+  - type: input
+    id: qt
+    attributes:
+      label: Qt version
+    validations:
+      required: false
+  - type: dropdown
+    id: session
+    attributes:
+      label: Session type
+      options:
+        - Wayland
+        - X11
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include window count, switcher scope, monitor count, and scaling.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
