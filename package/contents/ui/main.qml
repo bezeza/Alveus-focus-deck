@@ -210,7 +210,8 @@ KWin.TabBoxSwitcher {
                             z: PathView.isCurrentItem ? 2 : 1
 
                             windowIndex: index
-                            windowId: model.windowId
+                            // KWin exposes windowId as a required delegate role.
+                            // WindowCard receives it directly from the model.
                             caption: model.caption
                             iconName: model.icon
                             desktopName: model.desktopName
@@ -252,6 +253,7 @@ KWin.TabBoxSwitcher {
 
                         delegate: Item {
                             id: gridCell
+                            required property var windowId
                             width: gridView.cellWidth
                             height: gridView.cellHeight
 
@@ -260,7 +262,7 @@ KWin.TabBoxSwitcher {
                                 anchors.margins: 6
 
                                 windowIndex: index
-                                windowId: model.windowId
+                                windowId: gridCell.windowId
                                 caption: model.caption
                                 iconName: model.icon
                                 desktopName: model.desktopName
