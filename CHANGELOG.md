@@ -14,6 +14,7 @@ This is the first standalone project baseline, not a stable release.
 - Added user-level install and uninstall scripts.
 - Added structural tests and QML/shell CI checks.
 - Added project documentation, roadmap, and concept preview.
+- Adjusted KWin window-ID role forwarding after the first Fedora KDE runtime test.
 
 ### Not yet verified
 
