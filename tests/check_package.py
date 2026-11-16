@@ -55,11 +55,14 @@ for token in (
     "iconName: model.icon",
     "desktopName: model.desktopName",
     "minimized: model.minimized",
-    "windowId: model.windowId",
+    "required property var windowId",
+    "windowId: gridCell.windowId",
     "selected: gridCell.GridView.isCurrentItem",
 ):
     assert token in main_qml, f"Expected main.qml to bind {token!r}"
 
+assert "required property var windowId" in card_qml
+assert "windowId: model.windowId" not in main_qml
 assert "signal activated" in card_qml
 assert "required property string keyText" in hint_qml
 assert (ROOT / "README.md").is_file()
